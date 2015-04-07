@@ -37,6 +37,7 @@ Package: python3-tabulate
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
+         python3,
 Description: Pretty-print tabular data in Python3
  Pretty-print tabular data in Python, a library and a command-line utility.
  The main use cases of the library are:
