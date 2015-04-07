@@ -22,8 +22,15 @@ Section: libdevel
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Pretty-print tabular data in Python2
+ Pretty-print tabular data in Python, a library and a command-line utility.
+ The main use cases of the library are:
+  - printing small tables without hassle: just one function call, formatting is
+    guided by the data itself
+  - authoring tabular data for lightweight plain-text markup: multiple output
+    formats suitable for further editing or transformation
+  - readable presentation of mixed textual and numeric data: smart column
+    alignment, configurable number formatting, alignment by a decimal point
  .
  This package installs the library for Python 2.
 
@@ -32,7 +39,15 @@ Section: libdevel
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Pretty-print tabular data in Python3
+ Pretty-print tabular data in Python, a library and a command-line utility.
+ The main use cases of the library are:
+  - printing small tables without hassle: just one function call, formatting is
+    guided by the data itself
+  - authoring tabular data for lightweight plain-text markup: multiple output
+    formats suitable for further editing or transformation
+  - readable presentation of mixed textual and numeric data: smart column
+    alignment, configurable number formatting, alignment by a decimal point
+ .
  .
  This package installs the library for Python 3.
