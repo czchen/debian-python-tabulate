@@ -7,4 +7,5 @@ export PYBUILD_NAME = tabulate
 
 override_dh_install:
 	dh_install
-	rm -f $(CURDIR)/debian/python-tabulate/usr/bin/tabulate
+	# Install executable in python3-tabulate only to avoid name collision.
+	rm -rf $(CURDIR)/debian/python-tabulate/usr/bin
