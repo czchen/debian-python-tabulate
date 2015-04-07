@@ -4,3 +4,7 @@ export PYBUILD_NAME = tabulate
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_install:
+	dh_install
+	rm -f $(CURDIR)/debian/python-tabulate/usr/bin/tabulate
