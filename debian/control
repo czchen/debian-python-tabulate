@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9),
                python-nose,
                python-setuptools,
 Standards-Version: 3.9.6
-Section: libs
+Section: python
 Homepage: https://bitbucket.org/astanin/python-tabulate/
 #Vcs-Git: git://anonscm.debian.org/collab-maint/python-tabulate.git
 #Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/python-tabulate.git;a=summary
@@ -18,7 +18,6 @@ X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
 
 Package: python-tabulate
-Section: libdevel
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
@@ -35,7 +34,6 @@ Description: Pretty-print tabular data in Python2
  This package installs the library for Python 2.
 
 Package: python3-tabulate
-Section: libdevel
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
@@ -48,6 +46,5 @@ Description: Pretty-print tabular data in Python3
     formats suitable for further editing or transformation
   - readable presentation of mixed textual and numeric data: smart column
     alignment, configurable number formatting, alignment by a decimal point
- .
  .
  This package installs the library for Python 3.
