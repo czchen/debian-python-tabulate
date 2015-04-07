@@ -1,0 +1,38 @@
+Source: python-tabulate
+Priority: optional
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python3-all,
+               python3-nose,
+               python3-setuptools,
+               python-all (>= 2.6.6-3~),
+               python-nose,
+               python-setuptools,
+Standards-Version: 3.9.6
+Section: libs
+Homepage: https://bitbucket.org/astanin/python-tabulate/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/python-tabulate.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/python-tabulate.git;a=summary
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-tabulate
+Section: libdevel
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+ .
+ This package installs the library for Python 2.
+
+Package: python3-tabulate
+Section: libdevel
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+ .
+ This package installs the library for Python 3.

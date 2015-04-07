@@ -1,0 +1,5 @@
+python-tabulate (0.7.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Tue, 07 Apr 2015 23:19:06 +0800
